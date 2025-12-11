@@ -35,7 +35,7 @@ function getLastGroceryItem(groceries: string[]): string {
 function removeLastGroceryItem(groceries: string[]): string {
   // write your code here...
 
-  return groceries.splice(-1)[0]; // replace empty string with what you see is fit
+  return groceries.pop() as string; // replace empty string with what you see is fit
 }
 
 // Step 6:
